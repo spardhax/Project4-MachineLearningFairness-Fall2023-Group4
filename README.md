@@ -4,7 +4,7 @@
 
 Term: Fall 2023
 
-+ Team #
++ Team 4
 + Projec title: Comparing Machine Learning Fairness Algorithms
 + Team members
 	+ Ritika Nandi
