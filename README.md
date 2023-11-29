@@ -5,18 +5,27 @@
 Term: Fall 2023
 
 + Team #
-+ Projec title: Lorem ipsum dolor sit amet
++ Projec title: Comparing Machine Learning Fairness Algorithms
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	
-**Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+	+ Ritika Nandi
+	+ Spardha Sharma
+	+ Wenhe Chen
+	+ Zan Li
+    + Yichuan Lin
+	+ Yuchen Wu
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
++ Project summary: In this project, we have explored 2 methods for *Machine Learning Fairness* i.e. to correcting the unfairness for certain groups or individuals in machine learning algorithms' predictions on the [COMPAS](https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis) dataset. The aim of the project is to predict the two-year-recidivism of black and white defendants while holding racial status as a sensitive attribute to prevent machine bias against black defendants.
+
+Algorithms used - 
+1. [Maximizing accuracy under fairness constraints (C-SVM and C-LR)] (https://arxiv.org/pdf/1507.05259.pdf) - This algorithms focuses on maximizing accuracy under fairness constraints by minimizing the loss function subject to a covariance threshold between race (sensitive attribute) and the decision boundary.
+
+2. [Information Theoretic Measures for Fairness-aware Feature selection (FFS)] (https://arxiv.org/pdf/2106.00772) - This algorithms algorithm uses the joint statistics of the data to derive two information theoretic measures that can be used to quantify the accuracy and discrimination aspect for each subset of the feature space. We then evaluated each model's performance using accuracy and calibration.
+
+	
+**Contribution statement**: RN and SS worked on A2, Maximizing accuracy under fairness constraints (C-SVM and C-LR). RN worked on C-SVM and SS worked on C-LR. WC, ZL, YL, and YW worked on A7, Information Theoretic Measures for Fairness-aware Feature selection (FFS)
+.
+
+ This folder is orgarnized as follows.
 
 ```
 proj/
